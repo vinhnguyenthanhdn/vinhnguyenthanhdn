@@ -26,3 +26,5 @@ AWS Certified Generative AI Developer – Professional (2026) · PMP (2024)
 Open to project work, hourly consulting, and monthly retainers — remote.
 
 [LinkedIn](https://www.linkedin.com/in/vinhnguyen203/)
+
+<!-- profile -->
