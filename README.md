@@ -14,6 +14,10 @@ Solution Architect at FPT Software, based in Đà Nẵng, Vietnam. I design AI s
 
 A research platform for discovering and rigorously *falsifying* crypto trading strategies. Every configuration it has searched so far has been rejected; it publishes the machinery that reached that verdict and the evidence that the verdict is trustworthy. Running counts live in [docs/backtest-results.md](https://github.com/vinhnguyenthanhdn/ai-crypto/blob/main/docs/backtest-results.md).
 
+**[bedrock-eval-harness](https://github.com/vinhnguyenthanhdn/bedrock-eval-harness)** &nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/vinhnguyenthanhdn/bedrock-eval-harness/ci.yml?branch=main&style=flat&label=CI)](https://github.com/vinhnguyenthanhdn/bedrock-eval-harness/actions/workflows/ci.yml) [![release](https://img.shields.io/github/v/release/vinhnguyenthanhdn/bedrock-eval-harness?style=flat&label=release)](https://github.com/vinhnguyenthanhdn/bedrock-eval-harness/releases)
+
+Keep a fixed set of cases and answer the two questions that follow any model or prompt change: did it get better, and what does it now cost? A run is a file rather than a terminal scrollback that is gone, so two runs can be compared case by case instead of by one average — two runs can score the same and still have lost a case and gained another. No model has been called yet; every number in the repo is a fixture and labelled as one.
+
 **[claude-jobs](https://github.com/vinhnguyenthanhdn/claude-jobs)** &nbsp;[![npm](https://img.shields.io/npm/v/claude-jobs?style=flat&label=npm)](https://www.npmjs.com/package/claude-jobs) [![stars](https://img.shields.io/github/stars/vinhnguyenthanhdn/claude-jobs?style=flat&label=stars)](https://github.com/vinhnguyenthanhdn/claude-jobs/stargazers)
 
 Scheduled, unattended Claude Code CLI runs on your existing subscription, no API key. The wrapper details that decide whether a 3am job succeeds or fails silently.
