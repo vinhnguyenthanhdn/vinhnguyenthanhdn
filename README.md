@@ -24,7 +24,16 @@ Scheduled, unattended Claude Code CLI runs on your existing subscription, no API
 
 **[claude-router](https://github.com/vinhnguyenthanhdn/claude-router)** &nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/vinhnguyenthanhdn/claude-router/test.yml?branch=main&style=flat&label=CI)](https://github.com/vinhnguyenthanhdn/claude-router/actions/workflows/test.yml) [![stars](https://img.shields.io/github/stars/vinhnguyenthanhdn/claude-router?style=flat&label=stars)](https://github.com/vinhnguyenthanhdn/claude-router/stargazers)
 
-Point Claude Code at a different model provider for one terminal session, without editing global settings you then have to remember to undo. Windows and VSCode today; the [macOS](https://github.com/vinhnguyenthanhdn/claude-router/issues/9) and [Linux](https://github.com/vinhnguyenthanhdn/claude-router/issues/6) launchers are open issues and reviewed pull requests are welcome.
+Point Claude Code at a different model provider for one terminal session, without editing global settings you then have to remember to undo. The launcher and the VSCode switch each ship in two versions, PowerShell and POSIX shell, so Windows and macOS both get the same three modes. [Linux](https://github.com/vinhnguyenthanhdn/claude-router/issues/6) is the remaining gap, mostly install paths and where VSCode keeps its settings, and reviewed pull requests are welcome.
+
+### Open-source contributions
+
+Merged into other people's repositories. The conversation on each pull request is the part worth reading.
+
+- **[openclaw/openclaw#76538](https://github.com/openclaw/openclaw/pull/76538)** — a regression test for session repair trimming the final assistant response after tool usage. Six comments before it went in. Tests only, no product code.
+- **[xiufengsun/TokenTracker#482](https://github.com/xiufengsun/TokenTracker/pull/482)** — merged in seven hours and shipped in `0.91.0` the same day.
+
+Open and waiting on review: [nizos/tdd-guard#199](https://github.com/nizos/tdd-guard/pull/199), [vercel-labs/agent-browser#1698](https://github.com/vercel-labs/agent-browser/pull/1698), [xiufengsun/TokenTracker#483](https://github.com/xiufengsun/TokenTracker/pull/483).
 
 ### Background
 
