@@ -31,9 +31,11 @@ Point Claude Code at a different model provider for one terminal session, withou
 Merged into other people's repositories. The conversation on each pull request is the part worth reading.
 
 - **[openclaw/openclaw#76538](https://github.com/openclaw/openclaw/pull/76538)** — a regression test for session repair trimming the final assistant response after tool usage. Six comments before it went in. Tests only, no product code.
-- **[xiufengsun/TokenTracker#482](https://github.com/xiufengsun/TokenTracker/pull/482)** — merged in seven hours and shipped in `0.91.0` the same day.
+- **[Javis603/token-monitor#482](https://github.com/Javis603/token-monitor/pull/482)** — eight test fixtures bucketed the day at UTC midnight while the code buckets it at local midnight, so the project's own verify gate passed or failed depending on where you ran it. The fixtures now sit a minute either side of local midnight, and a CI job runs the whole suite at five offsets, one of which is not a whole hour. Tests and CI only, no product code. One round of maintainer feedback, which changed the shape of the work: one pull request for all eight files rather than eight.
+- **[xiufengsun/TokenTracker#483](https://github.com/xiufengsun/TokenTracker/pull/483)** — the macOS CI leg ran two hand-picked test files instead of the suite, so nothing else was ever checked on that platform. Came out of the limitation of the fix below.
+- **[xiufengsun/TokenTracker#482](https://github.com/xiufengsun/TokenTracker/pull/482)** — a test called GNU `sha256sum` directly, so it failed on machines without coreutils. Merged in seven hours and shipped in `0.91.0` the same day.
 
-Open and waiting on review: [nizos/tdd-guard#199](https://github.com/nizos/tdd-guard/pull/199), [vercel-labs/agent-browser#1698](https://github.com/vercel-labs/agent-browser/pull/1698), [xiufengsun/TokenTracker#483](https://github.com/xiufengsun/TokenTracker/pull/483).
+Open and waiting on review: [nizos/tdd-guard#199](https://github.com/nizos/tdd-guard/pull/199), [vercel-labs/agent-browser#1698](https://github.com/vercel-labs/agent-browser/pull/1698).
 
 ### Background
 
