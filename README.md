@@ -1,12 +1,14 @@
 # Vinh Nguyen
 
-Solution Architect at FPT Software, based in Đà Nẵng, Vietnam. I design AI systems on AWS and still write the code every week — the two halves are the point.
+Solution Architect at FPT Software, based in Đà Nẵng, Vietnam. I design AI systems on AWS and still write the code — the two halves are the point.
 
 ### What I work on
 
 - **Agentic systems and AI automation**, mostly for small teams and solo operators — the unglamorous parts: intake, follow-up, reporting.
 - **Retrieval-augmented generation, LLM evaluation, Amazon Bedrock.**
 - **Making automated work verifiable.** An agent that runs unattended is only useful if you can tell afterwards whether it was right. Evaluation harnesses, audit trails, and results published even when the answer is no.
+
+The repositories below cover LLM evaluation, Bedrock, and the scheduling-and-reporting end of automation. The intake and retrieval work is client work and is not public, so read those two as a claim rather than as evidence.
 
 ### Featured work
 
@@ -43,7 +45,7 @@ Sixteen years in software: seven in games (Unity, Unreal, webgame), five running
 
 ### Certifications
 
-AWS Certified Generative AI Developer – Professional (2026) · PMP (2024) · PMI-ACP (2021, expired 2024)
+AWS Certified Generative AI Developer – Professional (2026) · PMP (2024) · PMI-ACP (2021)
 
 ### Working together
 
